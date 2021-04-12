@@ -1,0 +1,285 @@
+button{
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input{
+  outline: none;
+  text-align: center;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+  -webkit-box-shadow: 0 0 0 30px  rgb(247, 246, 244) inset !important;
+  font-size: 20px;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+a:active{
+  text-decoration: none;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.navbar{
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+  background-color: rgb(223, 223, 235);
+}
+
+.navbar a{
+  height: 100%;
+}
+
+.navbar a img{
+  height: 100%;
+  cursor: pointer;
+
+  border-radius: 50%;
+}
+
+.navbar div{
+  height: 100%;
+  display: flex;
+/*  justify-content: center;*/
+  align-items: center;
+}
+
+.navbar div button{
+  height: 100%;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.navbar div button:hover{
+  cursor: pointer;
+  background-color: rgb(204, 204, 204);
+}
+
+/* *drop down  */
+.drop-down{
+  position: relative;
+  height: 100%;
+  margin: 0 0px 0 10px;
+}
+
+.drop-down-header{
+  height: 100%;
+  cursor: pointer;
+  margin: 0px 10px 0 0;
+
+}
+
+.drop-down-header img{
+  height: 100%;
+}
+
+.drop-down-content{
+  z-index: 1;
+
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  left: -300%;
+
+  display: flex;
+  flex-flow: column;
+}
+
+.drop-down-item{
+  width: 100%;
+  background-color: beige;
+  cursor: pointer;
+
+  padding: 1px 5px 10px 5px;
+}
+
+.drop-down-item img{
+  padding: 5px;
+  height: 80%;
+}
+
+.drop-down-item a{
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.drop-down-item:hover{
+  background-color: rgb(202, 202, 188);
+}
+
+.body-container{
+  width: 70%;
+  margin: 50px 15% 0 15%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+/* * header */
+.body-header{
+  width: 100%;
+  text-align: center;
+  margin: 10px 0 10px 0;
+  
+  font-family: 'Minya Nouvelle', Courier, monospace;
+  font-weight: 900;
+  color: rgb(125, 143, 143);
+  font-size: 16px;
+}
+
+  /* * image gallery */
+.image-gallery{
+  width: 100%;
+  
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.image-part img{
+  width: 100%;
+  user-select: none;
+}
+
+.left-button , .right-button{
+  position: absolute;
+  
+  top: 0;
+  bottom: 0;
+  width: 30px;
+
+  display: flex;
+  align-items: center;
+  background-color: rgb(165, 165, 165);
+  opacity: 0.5;
+
+  cursor: pointer;
+}
+
+.left-button:hover , .right-button:hover{
+  background-color: rgb(136, 133, 133);
+
+}
+
+.right-button{
+  right: 0px;
+}
+
+.left-button{
+  left: 0px;
+}
+
+.left-button img, .right-button img{
+  width: 30px;
+  user-select: none; 
+}
+
+  /* *create and join button */
+
+.body-main-button{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0 30px 0;
+}
+
+.body-main-button button{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.body-main-button div{
+  display: flex;
+}
+
+.body-main-button div input{
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(218, 216, 216);
+  font-size: 20px;
+
+  width: 300px;
+}
+
+.button-deco{
+  height: 50px;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 15px;
+
+  margin: 0 10px 0 10px;
+  padding: 0px 50px 0px 50px;
+  background-color: blanchedalmond;
+}
+
+.button-deco:hover{
+  background-color: rgb(226, 218, 218);
+}
+
+.button-deco img{
+  height: 100%;
+}
+
+/* *login  register Form */
+.lr-form{
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.lr-form input, .lr-form button{
+  width: 70%;
+  margin: 20px 0 20px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(247, 246, 244) ;
+}
+
+.lr-form button{
+  background-color: rgb(175, 161, 161);
+
+  width: 100%;
+}
+
