@@ -136,7 +136,7 @@
             <% } %>;
         </script>
 
-        <script src='view/room.js'>
+        <script src='view/js/room.js'>
         </script>
     </body>
 </html>

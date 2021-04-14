@@ -2,6 +2,23 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/Java/AssignJavaWeb/src/java/controller/update.java</file>
+            <file>file:/D:/Java/AssignJavaWeb/src/java/model/PendingConnection.java</file>
+            <file>file:/D:/Java/AssignJavaWeb/src/java/model/UpdateConnection.java</file>
+            <file>file:/D:/Java/AssignJavaWeb/web/view/lr.jsp</file>
+            <file>file:/D:/Java/AssignJavaWeb/web/view/home.jsp</file>
+            <file>file:/D:/Java/AssignJavaWeb/src/java/controller/home.java</file>
+            <file>file:/D:/Java/AssignJavaWeb/web/view/notfound.jsp</file>
+            <file>file:/D:/Java/AssignJavaWeb/src/java/controller/signalling.java</file>
+            <file>file:/D:/Java/AssignJavaWeb/src/java/controller/room.java</file>
+            <file>file:/D:/Java/AssignJavaWeb/web/view/room.jsp</file>
+            <file>file:/D:/Java/AssignJavaWeb/src/java/dal/UserDAO.java</file>
+            <file>file:/D:/Java/AssignJavaWeb/web/view/joinRoom.jsp</file>
+            <file>file:/D:/Java/AssignJavaWeb/src/java/controller/joinroom.java</file>
+            <file>file:/D:/Java/AssignJavaWeb/src/java/model/User.java</file>
+            <file>file:/D:/Java/AssignJavaWeb/src/java/controller/user.java</file>
+            <file>file:/D:/Java/AssignJavaWeb/src/java/dal/DBContext.java</file>
+        </group>
     </open-files>
 </project-private>
