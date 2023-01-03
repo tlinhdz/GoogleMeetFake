@@ -1,7 +1,6 @@
-"# Google Meet Fake ! NZZZZZZZZZZZZZZ" 
+"# Google Meet Fake " 
 
-1 số ảnh minh họa
-
+Ex:
 
 
 ![2](https://user-images.githubusercontent.com/47845610/114746353-d9772580-9d79-11eb-94b0-950bde08b359.png) <br>
